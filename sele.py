@@ -1,0 +1,33 @@
+from selenium import webdriver
+from time import sleep
+
+url = ["https://gestyy.com/edWh6W", "https://gestyy.com/edWh6k", "https://gestyy.com/edWh5R", "https://gestyy.com/edWh2G", "https://gestyy.com/edWhB7", "https://festyy.com/edQIxJ"]
+
+print("Memulai sistem!")
+driver = webdriver.Chrome()
+driver.get(url[0])
+sleep(20)
+driver.get(url[0])
+sleep(2)
+driver.get(url[1])
+sleep(20)
+driver.get(url[1])
+sleep(2)
+driver.get(url[2])
+sleep(20)
+driver.get(url[2])
+sleep(2)
+driver.get(url[3])
+sleep(20)
+driver.get(url[3])
+sleep(2)
+driver.get(url[4])
+sleep(20)
+driver.get(url[4])
+sleep(2)
+driver.get(url[5])
+sleep(20)
+driver.get(url[5])
+sleep(2)
+driver.quit()
+print("All is done!")
